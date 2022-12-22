@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestComboboxModelStoreContainer" CdmEntityContainer="TestComboboxEntities">
+    <EntitySetMapping Name="ActorAndCharacters">
+      <EntityTypeMapping TypeName="TestComboboxModel.ActorAndCharacter">
+        <MappingFragment StoreEntitySet="ActorAndCharacter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
